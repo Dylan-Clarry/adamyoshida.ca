@@ -1,0 +1,21 @@
+// imports //
+ 
+// utilities
+	// empty
+
+// base
+@import "base/reset";
+@import "base/typography";
+
+// components
+@import "components/navbar";
+@import "components/footer";
+
+// layout
+	// empty
+
+// pages
+@import "pages/index";
+
+// vendors
+	// empty

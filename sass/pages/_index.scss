@@ -1,0 +1,124 @@
+
+.navbar {
+	text-transform: uppercase;
+	color: $white;
+	background-color: $lt-black;
+	height: 50px;
+	div {
+		float: left;
+	}
+	ul {
+		float: right;
+	}
+	li {
+		display: inline-block;
+		&:nth-child(-n+3) {
+			padding-right: 10px;
+		}
+		a {
+			color: $white;
+		}
+	}
+}
+
+
+// ===============
+// landing
+// ===============
+.landing {
+	height: 100vh;
+	background-image: url("../img/city.png");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img {
+		width: 600px;
+		border-radius: 50%;
+		background-color: $white;
+		padding: 8px;
+	}
+}
+
+.landing-content {
+	text-align: center;
+	color: $white;
+
+	.white-block {
+		background-color: $white;
+		color: $white;
+		width: 10px;
+		height: 10px;
+	}
+
+	h1 {
+		font-size: 50px;
+		text-transform: uppercase;
+		padding: 50px 0;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+}
+
+// ===============
+// about
+// ===============
+.about {
+	text-align: center;
+	background-color: $lt-grey;
+	padding: 150px 0;
+
+	h2 {
+		font-size: 70px;
+	}
+
+	hr {
+		width: 150px;
+		margin: 40px auto;
+	}
+}
+
+// ===============
+// experience
+// ===============
+.experience {
+	padding: 150px 0;
+
+	hr {
+		width: 350px;
+		margin: 40px auto;
+	}
+
+	h2 {
+		font-size: 70px;
+	}
+
+	h2, h3 {
+		text-align: center;
+	}
+
+}
+
+.work .two-block:last-child {
+	padding-bottom: 200px;
+}
+
+// ===============
+// awards
+// ===============
+
+
+// ===============
+// footer
+// ===============
+.footer {
+	background-color: $lt-black;
+	color: $white;
+	padding: 5% 0;
+	h3 {
+		text-align: center;
+	}
+}
