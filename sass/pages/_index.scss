@@ -33,33 +33,27 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	img {
-		width: 600px;
-		border-radius: 50%;
-		background-color: $white;
-		padding: 8px;
-	}
 }
 
 .landing-content {
 	text-align: center;
 	color: $white;
-
-	.white-block {
+	
+	img {
+		width: 200px;
+		border-radius: 50%;
 		background-color: $white;
-		color: $white;
-		width: 10px;
-		height: 10px;
+		padding: 5px;
 	}
 
 	h1 {
-		font-size: 50px;
+		font-size: 20px;
 		text-transform: uppercase;
-		padding: 50px 0;
+		padding: 10px 0;
 	}
 
 	h2 {
-		font-size: 35px;
+		font-size: 15px;
 	}
 }
 
@@ -67,17 +61,18 @@
 // about
 // ===============
 .about {
-	text-align: center;
+	text-align: justify;
+	text-align-last: center;
 	background-color: $lt-grey;
-	padding: 150px 0;
+	padding: 100px 0;
 
 	h2 {
-		font-size: 70px;
+		font-size: 36px;
 	}
 
 	hr {
 		width: 150px;
-		margin: 40px auto;
+		margin: 20px auto;
 	}
 }
 
@@ -85,15 +80,15 @@
 // experience
 // ===============
 .experience {
-	padding: 150px 0;
+	padding: 100px 0;
 
 	hr {
-		width: 350px;
-		margin: 40px auto;
+		width: 100px;
+		margin: 20px auto;
 	}
 
 	h2 {
-		font-size: 70px;
+		font-size: 36px;
 	}
 
 	h2, h3 {
@@ -103,7 +98,7 @@
 }
 
 .work .two-block:last-child {
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
 
 // ===============
