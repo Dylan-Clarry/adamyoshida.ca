@@ -72,7 +72,6 @@
 
 	hr {
 		width: 150px;
-		margin: 20px auto;
 	}
 }
 
@@ -84,7 +83,6 @@
 
 	hr {
 		width: 100px;
-		margin: 20px auto;
 	}
 
 	h2 {
@@ -104,7 +102,31 @@
 // ===============
 // awards
 // ===============
+.awards {
+	text-align: center;
+	background-color: $lt-black;
+	padding: 100px 0;
 
+	h2 {
+		color: $white;
+	}
+
+	hr {
+		width: 120px;
+	}
+}
+
+.box div {
+	border: 2px solid $black;
+	border-radius: 5px;
+	background-color: $white;
+	padding: 40px 5px;
+	margin: 25px 0;
+
+	img {
+		width: 175px;
+	}
+}
 
 // ===============
 // footer
