@@ -1,0 +1,32 @@
+@media(min-width: $md) {
+
+	.container {
+		max-width: 1100px;
+	}
+
+	.two-block {
+		display: flex;
+		text-align: left;
+		padding: 20px 0;
+		div {
+			padding-bottom: 50px;
+			&:nth-child(1) {
+				width: 22%;
+				margin-right: 5%;
+			}
+			&:nth-child(2) {
+				width: 72%;
+				p, ul {
+					padding: 10px 0;
+				}
+			}
+			h2 {
+				text-align: left;
+			}
+			a {
+				width: 40px;
+			}
+		}
+
+	}
+}

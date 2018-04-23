@@ -105,7 +105,7 @@
 .awards {
 	text-align: center;
 	background-color: $lt-black;
-	padding: 100px 0;
+	padding: 50px 0;
 
 	h2 {
 		color: $white;
@@ -120,12 +120,22 @@
 	border: 2px solid $black;
 	border-radius: 5px;
 	background-color: $white;
+	max-width: 250px;
 	padding: 40px 5px;
-	margin: 25px 0;
+	margin: 25px auto;
 
 	img {
 		width: 175px;
 	}
+
+	h4 {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+}
+
+.box div:hover {
+	border-color: $lt-grey;
 }
 
 // ===============
